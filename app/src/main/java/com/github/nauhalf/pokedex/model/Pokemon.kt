@@ -1,7 +1,10 @@
 package com.github.nauhalf.pokedex.model
 
+import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
+import kotlinx.android.parcel.Parcelize
 
+@Parcelize
 data class Pokemon(
     @SerializedName("NationalId")
     var nationalId: String? = null,
@@ -20,4 +23,4 @@ data class Pokemon(
 
     @SerializedName("ImageUrl")
     var imageUrl: String? = null
-)
+) : Parcelable

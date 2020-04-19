@@ -3,4 +3,8 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="color_bg_card">#f1fdfd</color>
+    <color name="color_txt_pokemon_name">#242424</color>
+    <color name="color_divider">#DDDDDD</color>
+    <color name="color_pokemon_description">#525252</color>
 </resources>
